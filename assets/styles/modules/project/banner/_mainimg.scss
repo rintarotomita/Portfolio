@@ -1,0 +1,36 @@
+@use "../../layout/variable7" as *;
+
+.banner-mainimg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    text-align: center;
+    .banner1{
+        margin-left: 100px;
+    }
+    .banner2{
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .banner-mainimg{
+        margin-top: 30px;
+        .banner1{
+            margin-left: 50px;
+            img{
+                width: 10px;
+                height: 80;
+            }
+        }
+        .banner2{
+            margin-right: 30px;
+            .img{
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}
+
+

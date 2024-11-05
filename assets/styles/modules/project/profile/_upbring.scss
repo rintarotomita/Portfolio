@@ -1,0 +1,88 @@
+@use "../../layout/variable2" as *;
+
+.upbringing-box {
+    border-top: 1px solid #fff;
+    border-left:1px solid #fff;;
+    border-bottom: 1px solid #fff;
+    margin-left: 6.25rem;
+    #upbringing-title{
+        .upbringing-text{
+            margin-top: 6.25rem;
+            color: #fff;
+            font-size: 40px;
+            font-family: "Hiragino Sans", sans-serif;;
+            font-weight: 500;
+        }
+    }
+    #upbringing-main1{
+        display: flex;
+        justify-content: center;
+        margin-top: 6.25rem;
+        margin-bottom: 5rem;
+        .main1-img{
+            padding-right: 6.25rem;
+        }
+        .Main-text{
+            color: #fff;
+            margin-top: 6.25rem;
+        }
+    }
+    #upbringing-main2{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 6.25rem;
+
+        .main2-img{
+            padding-right: 6.25rem;
+        }
+        .Main-text2{
+            color: #fff;
+            margin-top: 5rem; //80px//
+            
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .upbringing-box{
+        border-bottom: 0.5px solid #fff;
+        margin-left: 30px;
+        #upbringing-title{
+            .upbringing-text{
+                margin-top: 50px;
+                font-size: 5vw;
+            }
+        }
+        #upbringing-main1{
+            margin-top: 30px;
+            margin-bottom: 50px;
+            .main1-img{
+                padding-right: 10px;
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .Main-text{
+                margin-left: 10px;
+                margin-top: 15px;
+                font-size: 7px;
+            }
+        }
+        #upbringing-main2{
+            margin-bottom: 50px;
+            .main2-img{
+                padding-right: 10px;
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .Main-text2{
+                font-size: 7px;
+                margin-top: 5px;
+                margin-left: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@use "../../layout/variable3" as *;
+
+.sakae-mainimg{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width:480px){
+    .sakae-mainimg{
+        img{
+            width: 280px;
+            height: 1400px;
+        }
+    }
+}

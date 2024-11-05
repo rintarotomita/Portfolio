@@ -1,0 +1,14 @@
+@use "../../layout/variable6" as *;
+
+.marin-mainimg{
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    .marin-mainimg{
+        img{
+            width: 280px;
+            height: 1300px;
+        }
+    }
+}

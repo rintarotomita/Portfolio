@@ -1,0 +1,14 @@
+@use "../../layout/variable5" as *;
+
+.traditonal-mainimg{
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    .traditonal-mainimg{
+        img{
+            width: 280px;
+            height: 1200px;
+        }
+    }
+}

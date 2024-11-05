@@ -1,0 +1,79 @@
+@use "../../layout/variable" as *;
+
+.footer-box {
+    display: flex;
+    border-top: 1px solid #fff;
+
+    #footer {
+        .footer-img {
+            padding-top: 25%;
+            padding-bottom: 25%;
+            padding-left: 50%;
+        }
+    }
+
+    .footer-flex {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 5.375rem;
+        width: 100vw;
+
+        .footer_nav {
+            display: flex;
+            justify-content: center;
+            font-size: 1.5vw;
+            font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+
+            .ul_list2 {
+                margin-left: 3.75rem;
+                margin-right: 3.75rem;
+            }
+
+            .ul_list3 {
+                margin-right: 3.75rem;
+            }
+            .insta-img{
+                padding-right: 3.75rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .footer-box{
+        #footer{
+            .footer-img{
+                padding-top: 50px;
+                padding-left: 30px;
+                padding-bottom: 50px;
+                img{
+                    width: 100px;
+                    height: 50px;
+                }
+            }
+        }
+        .footer-flex{
+            width: 100vw;
+            .footer_nav{
+                font-size: 10px;
+                margin-left: 20px;
+                .ul_list{
+                    margin-left: 20px;
+                }
+                .ul_list2{
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+                .ul_list3{
+                    margin-right: 20px;
+                }
+                .insta-img{
+                    img{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

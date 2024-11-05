@@ -1,0 +1,137 @@
+@use "../../layout/variable4" as *;
+
+#caravan-text-eria {
+    .tag {
+        font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+        ;
+        font-size: 40px;
+        margin-left: 300px;
+    }
+
+    .caravan-title {
+        color: #fff;
+        font-family: "Hiragino Sans", sans-serif;
+        font-weight: 600;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .subtitle {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        color: #fff;
+        font-size: 30px;
+
+        .main1 {
+            font-weight: 600;
+        }
+
+        .main2 {
+            font-weight: 600;
+        }
+    }
+
+    #point {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        .main-point {
+            margin: 2em 0;
+            position: relative;
+            padding: 3em 3em;
+            border-top: solid 2px rgb(255, 255, 255);
+            border-bottom: solid 2px rgb(255, 255, 255);
+        }
+
+        .main-point::before,
+        .main-point::after {
+            content: '';
+            position: absolute;
+            top: -10px;
+            width: 2px;
+            height: -webkit-calc(100% + 20px);
+            height: calc(100% + 20px);
+            background-color: rgb(255, 255, 255);
+        }
+
+        .main-point::before {
+            left: 10px;
+        }
+
+        .main-point::after {
+            right: 10px;
+        }
+
+        .main-point p {
+            font-family: "Hiragino Sans", sans-serif;
+            font-weight: 500;
+            font-size: 30px;
+        }
+
+        .point-text {
+            margin-left: 100px;
+            margin-top: 50px;
+            font-size: 20px;
+
+            .text1 {
+                margin-bottom: 20px;
+            }
+
+            .text2 {
+                margin-bottom: 20px;
+            }
+
+            .text3 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    #caravan-text-eria{
+        .tag{
+            font-size: 5vw;
+            margin-left: 50px;
+        }
+        .caravan-title{
+            font-size: 20px;
+        }
+        .subtitle{
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        #point{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            .main-point{
+                padding: 1rem 1rem;
+                border-top: solid 2px rgb(255, 255, 255);
+            }
+            .main-point::before,
+            .main-point::after{
+                width: 2px;
+            }
+            .main-point p{
+                font-size: 8px;
+            }
+            .point-text{
+                font-size: 8px;
+                margin-left: 0px;
+                margin-top: 35px;
+                .text1{
+                    margin-bottom: 10px;
+                }
+                .text2{
+                    margin-bottom: 10px;
+                }
+                .text3{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

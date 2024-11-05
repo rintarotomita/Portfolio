@@ -1,0 +1,333 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #656565;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+ul a,
+li a {
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: inherit;
+}
+ul a:hover,
+li a:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.top-box2 {
+  border-left: 1px solid #fff;
+  margin-left: 6.25rem;
+}
+
+#header {
+  display: flex;
+  border-bottom: 1px solid #fff;
+}
+#header #header_menu .header_logo .header_Profile {
+  margin-top: 3.75rem;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 480px) {
+  .top-box2 {
+    border-left: 1px solid #fff;
+    margin-left: 30px;
+  }
+  #header {
+    border-bottom: 1px solid #fff;
+  }
+  #header #header_menu .header_logo .header_Profile {
+    margin-top: 50px;
+    font-size: 5vw;
+    font-weight: 400;
+  }
+}
+#main-profile {
+  display: flex;
+}
+#main-profile .main-title {
+  font-family: "Hiragino Sans", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  color: #fff;
+  margin-right: 34.375rem;
+  margin-top: 18.75rem;
+}
+#main-profile .main-img {
+  margin-top: 8.75rem;
+  margin-bottom: 8.75rem;
+}
+
+@media screen and (max-width: 480px) {
+  #main-profile .main-title {
+    font-weight: 400;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+  }
+  #main-profile .main-img {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  #main-profile .main-img img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.upbringing-box {
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-left: 6.25rem;
+}
+.upbringing-box #upbringing-title .upbringing-text {
+  margin-top: 6.25rem;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Hiragino Sans", sans-serif;
+  font-weight: 500;
+}
+.upbringing-box #upbringing-main1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 6.25rem;
+  margin-bottom: 5rem;
+}
+.upbringing-box #upbringing-main1 .main1-img {
+  padding-right: 6.25rem;
+}
+.upbringing-box #upbringing-main1 .Main-text {
+  color: #fff;
+  margin-top: 6.25rem;
+}
+.upbringing-box #upbringing-main2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6.25rem;
+}
+.upbringing-box #upbringing-main2 .main2-img {
+  padding-right: 6.25rem;
+}
+.upbringing-box #upbringing-main2 .Main-text2 {
+  color: #fff;
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .upbringing-box {
+    border-bottom: 0.5px solid #fff;
+    margin-left: 30px;
+  }
+  .upbringing-box #upbringing-title .upbringing-text {
+    margin-top: 50px;
+    font-size: 5vw;
+  }
+  .upbringing-box #upbringing-main1 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .upbringing-box #upbringing-main1 .main1-img {
+    padding-right: 10px;
+  }
+  .upbringing-box #upbringing-main1 .main1-img img {
+    width: 80px;
+    height: 80px;
+  }
+  .upbringing-box #upbringing-main1 .Main-text {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 7px;
+  }
+  .upbringing-box #upbringing-main2 {
+    margin-bottom: 50px;
+  }
+  .upbringing-box #upbringing-main2 .main2-img {
+    padding-right: 10px;
+  }
+  .upbringing-box #upbringing-main2 .main2-img img {
+    width: 80px;
+    height: 80px;
+  }
+  .upbringing-box #upbringing-main2 .Main-text2 {
+    font-size: 7px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+}
+.hobby-box {
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-left: 6.25rem;
+}
+.hobby-box #hobby-title .hobby-titletext {
+  color: #fff;
+  margin-top: 6.25rem;
+  font-size: 40px;
+  font-family: "Hiragino Sans", sans-serif;
+}
+.hobby-box #hobby-title .hobby-subtext {
+  color: #fff;
+  margin-top: 1.25rem;
+}
+.hobby-box #hobby-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 6.25rem;
+  margin-bottom: 5rem;
+}
+.hobby-box #hobby-main .hobby-img {
+  padding-right: 6.25rem;
+}
+.hobby-box #hobby-main .hobby-maintext {
+  padding-right: 6.25rem;
+  margin-top: 7.5rem;
+  color: #fff;
+}
+.hobby-box #hobby-main2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6.25rem;
+}
+.hobby-box #hobby-main2 .hobby-img2 {
+  padding-right: 6.25rem;
+  padding-left: 30px;
+}
+.hobby-box #hobby-main2 .hobby-maintext2 {
+  margin-top: 7.5rem;
+  color: #fff;
+  padding-right: 6.25rem;
+}
+
+@media screen and (max-width: 480px) {
+  .hobby-box {
+    margin-left: 30px;
+    border-left: 1px solid #fff;
+    border-top: 0.5px solid #fff;
+    border-bottom: 0.5px solid #fff;
+  }
+  .hobby-box #hobby-title .hobby-titletext {
+    font-size: 5vw;
+    margin-top: 50px;
+  }
+  .hobby-box #hobby-title .hobby-subtext {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .hobby-box #hobby-main {
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .hobby-box #hobby-main .hobby-img {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+  .hobby-box #hobby-main .hobby-img img {
+    width: 80px;
+    height: 80px;
+  }
+  .hobby-box #hobby-main .hobby-maintext {
+    padding-right: 0px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 7px;
+  }
+  .hobby-box #hobby-main2 {
+    margin-bottom: 50px;
+  }
+  .hobby-box #hobby-main2 .hobby-img2 {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+  .hobby-box #hobby-main2 .hobby-img2 img {
+    width: 80px;
+    height: 80px;
+  }
+  .hobby-box #hobby-main2 .hobby-maintext2 {
+    padding-right: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 6.5px;
+  }
+}
+.footer-box {
+  display: flex;
+  border-top: 1px solid #fff;
+}
+.footer-box #footer .footer-img {
+  padding-top: 25%;
+  padding-bottom: 25%;
+  padding-left: 50%;
+}
+.footer-box .footer-flex {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5.375rem;
+  width: 100vw;
+}
+.footer-box .footer-flex .footer_nav {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5vw;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+}
+.footer-box .footer-flex .footer_nav .ul_list2 {
+  margin-left: 3.75rem;
+  margin-right: 3.75rem;
+}
+.footer-box .footer-flex .footer_nav .ul_list3 {
+  margin-right: 3.75rem;
+}
+.footer-box .footer-flex .footer_nav .insta-img {
+  padding-right: 3.75rem;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-box {
+    border-top: 0.5px solid #fff;
+  }
+  .footer-box #footer .footer-img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+  }
+  .footer-box #footer .footer-img img {
+    width: 100px;
+    height: 50px;
+  }
+  .footer-box .footer-flex {
+    width: 100vw;
+  }
+  .footer-box .footer-flex .footer_nav {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .footer-box .footer-flex .footer_nav .ul_list {
+    margin-left: 20px;
+  }
+  .footer-box .footer-flex .footer_nav .ul_list2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .footer-box .footer-flex .footer_nav .ul_list3 {
+    margin-right: 20px;
+  }
+  .footer-box .footer-flex .footer_nav .insta-img img {
+    width: 30px;
+    height: 30px;
+  }
+}/*# sourceMappingURL=profile.css.map */

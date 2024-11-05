@@ -1,0 +1,74 @@
+@use "../../layout/variable3" as *;
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-img {
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+
+    .footer-flex {
+        .footer_nav {
+            display: flex;
+            margin-right: 100px;
+            margin-top: 10px;
+            font-size: 25px;
+            font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+            .insta-img{
+                margin-left: 20px;
+                a {
+                    display: inline-block;
+                    transition: all .3s ease 0s;
+                    text-decoration: none;
+                    color: inherit;
+            
+                    &:hover {
+                        cursor: pointer;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px){
+    #footer{
+        .footer-img{
+            padding-left: 30px;
+            margin-bottom: 30px;
+            margin-left: 0px;
+            img{
+                width: 100px;
+                height: 50px;
+            }
+        }
+        .footer-flex{
+            .footer_nav{
+                margin-right: 0px;
+                margin-top: 15px;
+                font-size: 10px;
+                .ul_list{
+                    margin-left: 30px;
+                }
+                .ul_list2{
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+                .ul_list3{
+                    margin-right: 5px;
+                    margin-left: 5px;
+                }
+                .insta-img{
+                    margin-right: 5px;
+                    img{
+                        width: 31px;
+                        height: 31px;
+                    }
+                }
+            }
+        }
+    }
+}

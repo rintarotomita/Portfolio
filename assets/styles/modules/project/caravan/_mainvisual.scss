@@ -1,0 +1,14 @@
+@use "../../layout/variable4" as *;
+
+.caravan-mainimg{
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    .caravan-mainimg{
+        img{
+            width: 280px;
+            height: 900px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@use "../../layout/variable2" as *;
+
+.top-box2 {
+    border-left: 1px solid #fff;
+    margin-left: 6.25rem;
+}
+
+#header{
+    display: flex;
+    border-bottom: 1px solid #fff;
+
+    #header_menu{
+        .header_logo{
+            .header_Profile{
+                margin-top: 3.75rem;
+                font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+                font-size: 3vw;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .top-box2{
+        border-left: 1px solid #fff;
+        margin-left: 30px;
+    }
+
+    #header{
+        border-bottom: 1px solid #fff;
+
+        #header_menu{
+            .header_logo{
+                .header_Profile{
+                    margin-top: 50px;
+                    font-size: 5vw;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@use "../../layout/variable7" as *;
+
+.banner-img{
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    .banner-img{
+        img{
+            width: 280px;
+            height: 200px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@use "../../layout/variable8" as *;
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-img {
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+
+    .footer-flex {
+        .footer_nav {
+            display: flex;
+            margin-right: 100px;
+            margin-top: 10px;
+            font-size: 25px;
+            font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+            .insta-img{
+                margin-left: 20px;
+                a {
+                    display: inline-block;
+                    transition: all .3s ease 0s;
+                    text-decoration: none;
+                    color: inherit;
+            
+                    &:hover {
+                        cursor: pointer;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+}

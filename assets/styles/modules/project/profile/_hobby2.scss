@@ -1,0 +1,112 @@
+@use "../../layout/variable2" as *;
+
+.hobby-box {
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-left: 6.25rem;
+
+    #hobby-title {
+        .hobby-titletext {
+            color: #fff;
+            margin-top: 6.25rem;
+            font-size: 40px;
+            font-family: "Hiragino Sans", sans-serif;
+            ;
+        }
+
+        .hobby-subtext {
+            color: #fff;
+            margin-top: 1.25rem;
+        }
+    }
+
+    #hobby-main {
+        display: flex;
+        justify-content: center;
+        margin-top: 6.25rem;
+        margin-bottom: 5rem;
+
+        .hobby-img {
+            padding-right: 6.25rem;
+        }
+
+        .hobby-maintext {
+            padding-right: 6.25rem;
+            margin-top: 7.5rem;
+            color: #fff;
+        }
+    }
+
+    #hobby-main2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 6.25rem;
+
+        .hobby-img2 {
+            padding-right: 6.25rem;
+            padding-left: 30px;
+        }
+
+        .hobby-maintext2 {
+            margin-top: 7.5rem;
+            color: #fff;
+            padding-right: 6.25rem;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hobby-box {
+        margin-left: 30px;
+        border-left: 1px solid #fff;
+        border-top: 0.5px solid #fff;
+        border-bottom: 0.5px solid #fff;
+        #hobby-title {
+            .hobby-titletext {
+                font-size: 5vw;
+                margin-top: 50px;
+            }
+            .hobby-subtext{
+                margin-top: 20px;
+                font-size: 15px;
+            }
+        }
+        #hobby-main{
+            margin-bottom: 50px;
+            margin-top: 30px;
+            .hobby-img{
+                padding-left: 10px;
+                padding-right: 0px;
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .hobby-maintext{
+                padding-right: 0px;
+                margin-left: 20px;
+                margin-top: 15px;
+                font-size: 7px;
+            }
+        }
+
+        #hobby-main2{
+            margin-bottom: 50px;
+            .hobby-img2{
+                padding-left: 10px;
+                padding-right: 0px;
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .hobby-maintext2{
+                padding-right: 0px;
+                margin-left: 20px;
+                margin-top: 20px;
+                font-size: 6.5px;
+            }
+        }
+    }
+}

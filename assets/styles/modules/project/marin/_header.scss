@@ -1,0 +1,46 @@
+@use "../../layout/variable6" as *;
+
+#marin-header{
+    .marin-title{
+        display: flex;
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        font-size: 70px;
+        font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;;
+        .title1{
+            font-weight: 1000;
+        }
+        .sitemap1{
+            font-size: 20px;
+            color: #fff;
+            margin-left: 100px;
+            margin-top: 55px;
+        }
+        .sitemap2{
+            font-size: 20px;
+            font-family: "Hiragino Sans", sans-serif;
+            color: #fff;
+            margin-top: 55px;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    #marin-header{
+        .marin-title{
+            margin-top: 50px;
+            margin-left: 30px;
+            font-size: 5vw;
+            .sitemap1{
+                font-size: 2vw;
+                margin-top: 10px;
+                margin-left: 30px;
+            }
+            .sitemap2{
+                font-size: 2vw;
+                margin-top: 10px;
+            }
+        }
+    }
+}

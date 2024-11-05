@@ -1,0 +1,44 @@
+@use "../../layout/variable" as *;
+
+#main_img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 12.5rem;
+
+    .main_name {
+        margin-right: 9.25rem;
+        margin-top: 6.25rem;
+    }
+
+    .main_image {
+        margin-right: 6.25rem;
+        margin-bottom: 6.25rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #main_img {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+
+        .main_name {
+            margin-left: 100px;
+            margin-top: 25px;
+            img{
+                width: 100px;
+                height: 50px;
+            }
+        }
+
+        .main_image {
+            margin-bottom: 20px;
+        }
+    }
+}

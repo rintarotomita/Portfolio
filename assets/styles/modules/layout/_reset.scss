@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #656565;
+}
+
+ul,
+li {
+    list-style-type: none;
+
+    a {
+        display: inline-block;
+        transition: all .3s ease 0s;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
