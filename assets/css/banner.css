@@ -53,8 +53,9 @@ li a:hover {
 
 @media screen and (max-width: 480px) {
   #banner-header .banner-title {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 30px;
+    margin-bottom: 30px;
     font-size: 5vw;
   }
   #banner-header .banner-title .sitemap1 {
@@ -158,6 +159,7 @@ li a:hover {
 @media screen and (max-width: 480px) {
   #banner-text-eria .tag {
     font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+    margin-top: 20px;
     font-size: 40px;
     margin-left: 300px;
   }
@@ -272,36 +274,36 @@ li a:hover {
     margin-bottom: 10px;
   }
 }
-.banner-mainimg {
+#banner-mainimg {
   display: flex;
-  justify-content: space-between;
   margin-top: 70px;
   text-align: center;
 }
-.banner-mainimg .banner1 {
+#banner-mainimg .main-img1 {
   margin-left: 100px;
-}
-.banner-mainimg .banner2 {
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 @media screen and (max-width: 480px) {
-  .banner-mainimg {
-    margin-top: 30px;
+  #banner-mainimg {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
   }
-  .banner-mainimg .banner1 {
-    margin-left: 20px;
+  #banner-mainimg .main-img1 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
-  .banner-mainimg .banner1 img {
-    width: 10px;
-    height: 80px;
+  #banner-mainimg .main-img1 img {
+    width: 300px;
+    height: 220px;
   }
-  .banner-mainimg .banner2 {
-    margin-right: 30px;
+  #banner-mainimg .main-img2 {
+    margin-top: 20px;
   }
-  .banner-mainimg .banner2 .img {
-    width: 80px;
-    height: 80px;
+  #banner-mainimg .main-img2 img {
+    width: 300px;
+    height: 220px;
   }
 }
 #Works .works-maintitle {
@@ -521,7 +523,7 @@ li a:hover {
 @media screen and (max-width: 480px) {
   #Works .works-maintitle {
     font-size: 5vw;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 20px;
   }

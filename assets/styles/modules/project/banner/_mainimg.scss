@@ -1,33 +1,33 @@
 @use "../../layout/variable7" as *;
 
-.banner-mainimg{
+#banner-mainimg{
     display: flex;
-    justify-content: space-between;
     margin-top: 70px;
     text-align: center;
-    .banner1{
+    .main-img1{
         margin-left: 100px;
-    }
-    .banner2{
-        margin-right: 100px;
+        margin-right: 50px;
     }
 }
 
 @media screen and (max-width:480px) {
-    .banner-mainimg{
-        margin-top: 30px;
-        .banner1{
-            margin-left: 20px;
+    #banner-mainimg{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        .main-img1{
+            margin-left: 0px;
+            margin-right: 0px;
             img{
-                width: 10px;
-                height: 80px;
+                width: 300px;
+                height: 220px;
             }
         }
-        .banner2{
-            margin-right: 30px;
-            .img{
-                width: 80px;
-                height: 80px;
+        .main-img2{
+            margin-top: 20px;
+            img{
+                width: 300px;
+                height: 220px;
             }
         }
     }

@@ -53,7 +53,8 @@ li a:hover {
 
 @media screen and (max-width: 480px) {
   #traditional-header .Works-title {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     margin-left: 30px;
     font-size: 5vw;
   }
@@ -81,6 +82,7 @@ li a:hover {
   font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
   font-size: 40px;
   margin-left: 300px;
+  margin-top: 70px;
 }
 #traditional-text-eria .traditional-title {
   color: #fff;
@@ -155,6 +157,7 @@ li a:hover {
   #traditional-text-eria .tag {
     font-size: 5vw;
     margin-left: 50px;
+    margin-top: 20px;
   }
   #traditional-text-eria .traditional-title {
     font-size: 20px;

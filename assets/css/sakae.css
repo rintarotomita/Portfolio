@@ -54,7 +54,7 @@ li a:hover {
 
 @media screen and (max-width: 480px) {
   #Sakae-header {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 30px;
   }
   #Sakae-header .Works-title {
@@ -79,7 +79,7 @@ li a:hover {
 @media screen and (max-width: 480px) {
   .sakaemain {
     margin-top: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
   .sakaemain img {
     width: 280px;
@@ -206,7 +206,7 @@ li a:hover {
 
 @media screen and (max-width: 480px) {
   .sakae-mainimg {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .sakae-mainimg img {
     width: 280px;
