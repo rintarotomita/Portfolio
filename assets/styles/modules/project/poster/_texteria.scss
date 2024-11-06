@@ -84,3 +84,48 @@
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    #poster-text-eria{
+        .tag{
+            font-size: 5vw;
+            margin-left: 50px;
+        }
+        .poster-title{
+            font-size: 20px;
+        }
+        .subtitle{
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        #point{
+            margin-top: 0px;
+            margin-bottom: 15px;
+            .main-point{
+                padding: 1rem 1rem;
+                border-top: solid 2px rgb(255, 255, 255);
+            }
+            .main-point::before,
+            .main-point::after{
+                width: 2px;
+            }
+            .main-point p{
+                font-size: 8px;
+            }
+            .point-text{
+                font-size: 7px;
+                margin-left: 0px;
+                margin-top: 25px;
+                .text1{
+                    margin-bottom: 10px;
+                }
+                .text2{
+                    margin-bottom: 10px;
+                }
+                .text3{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

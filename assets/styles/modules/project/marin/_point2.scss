@@ -55,3 +55,33 @@
         }
     }
 }
+
+@media screen and (max-width: 480px){
+    #point2{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        .main-point2{
+            padding: 1rem 1rem;
+            border-top: solid 2px rgb(255, 255, 255)
+        }
+
+        .main-point2::before,
+        .main-point2::after{
+            width: 2px;
+        }
+        .main-point2 p{
+            font-size: 8px;
+        }
+        .point-text{
+            font-size: 8px;
+            margin-left: 0px;
+            margin-top: 45px;
+            .text1{
+                margin-bottom: 10px;
+            }
+            .text2{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

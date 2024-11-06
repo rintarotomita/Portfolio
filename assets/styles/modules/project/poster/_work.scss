@@ -247,3 +247,49 @@
         }
     }
 }
+
+@media screen and (max-width:480px) {
+    #Works{
+        .works-maintitle{
+            font-size: 5vw;
+            margin-top: 30px;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+    }
+    .works-page{
+        #works-item1{
+            .works-img1{
+                .subtitle{
+                    font-size: 15px;
+                }
+                .subtext{
+                    font-size: 8px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        #works-item2{
+            .works-img2{
+                .subtitle2{
+                    font-size: 15px;
+                }
+                .subtext2{
+                    font-size: 8px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    #works-item3{
+        .works-img3{
+            .subtitle3{
+                font-size: 15px;
+            }
+            .subtext3{
+                font-size: 8px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

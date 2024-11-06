@@ -48,12 +48,39 @@ li a:hover {
   margin-top: 55px;
 }
 
+@media screen and (max-width: 480px) {
+  #poster-header .poster-title {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 5vw;
+  }
+  #poster-header .poster-title .sitemap1 {
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  #poster-header .poster-title .sitemap2 {
+    font-size: 2vw;
+    margin-top: 10px;
+  }
+}
 .poster-img {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 480px) {
+  .poster-img {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  .poster-img img {
+    width: 280px;
+    height: 200px;
+  }
+}
 #poster-text-eria .tag {
   font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
   font-size: 40px;
@@ -129,10 +156,57 @@ li a:hover {
   margin-bottom: 20px;
 }
 
-.poster-mainimg {
-  text-align: center;
+@media screen and (max-width: 480px) {
+  #poster-text-eria .tag {
+    font-size: 5vw;
+    margin-left: 50px;
+  }
+  #poster-text-eria .poster-title {
+    font-size: 20px;
+  }
+  #poster-text-eria .subtitle {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  #poster-text-eria #point {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  #poster-text-eria #point .main-point {
+    padding: 1rem 1rem;
+    border-top: solid 2px rgb(255, 255, 255);
+  }
+  #poster-text-eria #point .main-point::before,
+  #poster-text-eria #point .main-point::after {
+    width: 2px;
+  }
+  #poster-text-eria #point .main-point p {
+    font-size: 8px;
+  }
+  #poster-text-eria #point .point-text {
+    font-size: 7px;
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+  #poster-text-eria #point .point-text .text1 {
+    margin-bottom: 10px;
+  }
+  #poster-text-eria #point .point-text .text2 {
+    margin-bottom: 10px;
+  }
+  #poster-text-eria #point .point-text .text3 {
+    margin-bottom: 10px;
+  }
 }
-
+@media screen and (max-width: 480px) {
+  .poster-mainimg {
+    text-align: center;
+  }
+  .poster-mainimg img {
+    width: 250px;
+    height: 200px;
+  }
+}
 #Works .works-maintitle {
   font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
   font-size: 70px;
@@ -346,6 +420,35 @@ li a:hover {
   color: #fff;
 }
 
+@media screen and (max-width: 480px) {
+  #Works .works-maintitle {
+    font-size: 5vw;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .works-page #works-item1 .works-img1 .subtitle {
+    font-size: 15px;
+  }
+  .works-page #works-item1 .works-img1 .subtext {
+    font-size: 8px;
+    margin-bottom: 20px;
+  }
+  .works-page #works-item2 .works-img2 .subtitle2 {
+    font-size: 15px;
+  }
+  .works-page #works-item2 .works-img2 .subtext2 {
+    font-size: 8px;
+    margin-bottom: 20px;
+  }
+  #works-item3 .works-img3 .subtitle3 {
+    font-size: 15px;
+  }
+  #works-item3 .works-img3 .subtext3 {
+    font-size: 8px;
+    margin-bottom: 30px;
+  }
+}
 #footer {
   display: flex;
   justify-content: space-between;
@@ -373,4 +476,39 @@ li a:hover {
 #footer .footer-flex .footer_nav .insta-img a:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 480px) {
+  #footer .footer-img {
+    padding-left: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  #footer .footer-img img {
+    width: 100px;
+    height: 50px;
+  }
+  #footer .footer-flex .footer_nav {
+    margin-right: 0px;
+    margin-top: 15px;
+    font-size: 10px;
+  }
+  #footer .footer-flex .footer_nav .ul_list {
+    margin-left: 30px;
+  }
+  #footer .footer-flex .footer_nav .ul_list2 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #footer .footer-flex .footer_nav .ul_list3 {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  #footer .footer-flex .footer_nav .insta-img {
+    margin-right: 5px;
+  }
+  #footer .footer-flex .footer_nav .insta-img img {
+    width: 31px;
+    height: 31px;
+  }
 }/*# sourceMappingURL=poster.css.map */
