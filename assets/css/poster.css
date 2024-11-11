@@ -198,6 +198,10 @@ li a:hover {
     margin-bottom: 10px;
   }
 }
+.poster-mainimg {
+  text-align: center;
+}
+
 @media screen and (max-width: 480px) {
   .poster-mainimg {
     text-align: center;

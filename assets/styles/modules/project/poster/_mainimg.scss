@@ -1,5 +1,9 @@
 @use "../../layout/variable8" as *;
 
+.poster-mainimg{
+    text-align: center;
+}
+
 @media screen and (max-width:480px){
     .poster-mainimg{
         text-align: center;
