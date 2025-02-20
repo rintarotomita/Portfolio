@@ -15,12 +15,12 @@ body {
 
 .back-img {
   position: relative;
-  background-image: url(/assets/img/縞模様背景なし.png);
+  background-image: url(https://rintarotomita.github.io/Portfolio/assets/img/縞模様背景なし.png);
   background-size: 150% auto;
   background-repeat: no-repeat;
   background-position: 0% 0%;
   width: 100%;
-  animation: subtleSlide 180s linear infinite;
+  animation: subtleSlide 150s linear infinite;
   will-change: background-position;
 }
 .back-img .Top .Top-imgs {
