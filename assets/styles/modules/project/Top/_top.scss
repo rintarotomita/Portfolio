@@ -3,11 +3,10 @@
 .back-img {
     position: relative;
     background-image: url(/assets/img/縞模様背景なし.png);
-    background-size: 150% auto; /* 背景を大きめに設定 */
+    background-size: 150% auto;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     width: 100%;
-    height: 100vh;
     animation: subtleSlide 180s linear infinite;
     will-change: background-position;
 
