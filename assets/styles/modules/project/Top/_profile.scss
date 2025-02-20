@@ -2,8 +2,10 @@
 
 .profile{
     font-family: "Toppan Bungu Mincho", serif;
+    display: flex;
+    justify-content: center;
+    margin: 10vw 10vw; 
     .profile-text{
-        margin: 10vw 10vw; 
         .title{
             font-weight: 700;
             font-size: 5.6vw;

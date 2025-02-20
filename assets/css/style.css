@@ -66,8 +66,8 @@ body {
 }
 .profile {
   font-family: "Toppan Bungu Mincho", serif;
-}
-.profile .profile-text {
+  display: flex;
+  justify-content: center;
   margin: 10vw 10vw;
 }
 .profile .profile-text .title {
