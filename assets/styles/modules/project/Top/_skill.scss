@@ -1,0 +1,10 @@
+@use "../../layout/variable" as *;
+
+.Skill{
+    font-family: "Toppan Bungu Mincho", serif;
+    margin: 10vw 10vw;
+    .title{
+        font-weight: 700;
+        font-size: 5vw;
+    }
+}

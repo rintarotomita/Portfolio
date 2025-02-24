@@ -5,10 +5,11 @@
     display: flex;
     justify-content: center;
     margin: 10vw 10vw; 
+    gap: 10%;
     .profile-text{
         .title{
-            font-weight: 700;
-            font-size: 5.6vw;
+            font-weight: 600;
+            font-size: 5vw;
         }
         .profile-name{
             margin-top: 3vw;
@@ -22,6 +23,23 @@
         }
         .profile-maintext{
             font-size: 1.2vw;
+        }
+        .sns-icon{
+            list-style: none;
+            width: 8%;
+            margin-top: 3vw;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .profile-img {
+        margin-top: 7vw;
+        width: 30%;
+    
+        img {
+            width: 100%;
+            filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.7)); /* 影を強調 */
         }
     }
 }
