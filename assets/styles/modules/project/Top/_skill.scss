@@ -1,10 +1,48 @@
 @use "../../layout/variable" as *;
 
-.Skill{
+.Skill {
     font-family: "Toppan Bungu Mincho", serif;
-    margin: 10vw 10vw;
-    .title{
-        font-weight: 700;
-        font-size: 5vw;
-    }
+    position: relative;
+    background: #733D3D;
+    color: white;
+    overflow: hidden;
+}
+
+.text-content {
+    position: relative;
+    z-index: 1;
+    margin: clamp(2rem, 10vw, 6rem);
+}
+
+.title {
+    display: flex;
+    font-weight: 700;
+    font-size: clamp(2rem, 5vw, 4rem);
+    letter-spacing: 0.05em;
+}
+
+.main {
+    font-size: 5vw;
+    display: block;
+    width: fit-content;
+    overflow: hidden;
+}
+
+/* 文字の初期状態 */
+.main span {
+    display: inline-block;
+    transform: translateY(100%);
+    opacity: 0;
+    will-change: transform, opacity;
+}
+
+/* 🔥 一文字ずつズレながらアニメーション */
+.Skill.animate .main span {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
 }

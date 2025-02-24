@@ -2,12 +2,11 @@
 
 .back-img {
     position: relative;
-    background-image: url(https://rintarotomita.github.io/Portfolio/assets/img/縞模様背景なし.png);
-    background-size: 150% auto;
+    background-image: url(https://rintarotomita.github.io/Portfolio/assets/img/縞模様背景なし.png?ver2025.png?ver2025.0222);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0% 0%;
     width: 100%;
-    height: 110vw;
+    background-position: 0% 0%;
     animation: subtleSlide 150s linear infinite;
     will-change: background-position;
 
