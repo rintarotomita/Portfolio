@@ -28,7 +28,6 @@
     overflow: hidden;
 }
 
-/* 文字の初期状態 */
 .main span {
     display: inline-block;
     transform: translateY(100%);
@@ -36,13 +35,54 @@
     will-change: transform, opacity;
 }
 
-/* 🔥 一文字ずつズレながらアニメーション */
 .Skill.animate .main span {
     transform: translateY(0);
     opacity: 1;
     transition: transform 0.6s ease-out, opacity 0.6s ease-out;
 }
-.subtitle{
-    display: flex;
-    justify-content: center;
+
+.sub{
+    margin-top: 3.5vw;
+    margin-left: 2vw;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.container {
+    display: block;
+    opacity: 0; 
+    transform: translateY(50px); 
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+
+    &.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .subtitle, .subtitle1 {
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        margin-top: 6vw;
+
+        .title {
+            font-style: italic;
+            font-size: 3.5vw;
+            font-weight: 700;
+        }
+
+        .text {
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+            font-weight: 700;
+            font-size: 2vw;
+
+            .maintext {
+                margin-top: 3vw;
+                font-weight: 500;
+                text-align: justify; 
+                text-align: left;
+                font-size: 1.1vw;
+            }
+        }
+    }
 }

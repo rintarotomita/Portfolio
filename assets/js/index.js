@@ -20,3 +20,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     observer.observe(skillSection);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const container = document.querySelector(".container");
+
+    function fadeInOnScroll() {
+        const rect = container.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+
+        if (rect.top < windowHeight - 100) {
+            container.classList.add("show");
+        }
+    }
+
+    window.addEventListener("scroll", fadeInOnScroll);
+    fadeInOnScroll(); // 初回チェック
+});

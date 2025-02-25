@@ -1,5 +1,11 @@
 @use "../../layout/variable" as *;
 
 .Works{
+    font-family: "Toppan Bungu Mincho", serif;
     margin: 0vw 10vw;
+    .Works-title{
+        margin-top: 10vw;
+        font-weight: 700;
+        font-size: 5vw;
+    }
 }
