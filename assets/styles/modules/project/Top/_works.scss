@@ -7,5 +7,25 @@
         margin-top: 10vw;
         font-weight: 700;
         font-size: 5vw;
+        text-align: center;
+    }
+    .works-content{
+        margin-top: 5vw;
+        ul{
+            list-style-type: none;
+            .works1{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 50%;
+                }
+                a{
+                    text-align: center;
+                    font-size: 2vw;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
     }
 }

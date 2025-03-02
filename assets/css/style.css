@@ -197,4 +197,24 @@ body {
   margin-top: 10vw;
   font-weight: 700;
   font-size: 5vw;
+  text-align: center;
+}
+.Works .works-content {
+  margin-top: 5vw;
+}
+.Works .works-content ul {
+  list-style-type: none;
+}
+.Works .works-content ul .works1 {
+  display: flex;
+  justify-content: center;
+}
+.Works .works-content ul .works1 img {
+  width: 50%;
+}
+.Works .works-content ul .works1 a {
+  text-align: center;
+  font-size: 2vw;
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
