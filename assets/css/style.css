@@ -76,16 +76,22 @@ body {
   font-size: 5vw;
 }
 .profile .profile-text .profile-name {
+  font-family: "hiragino-kaku-gothic-pron", sans-serif;
+  font-weight: 500;
   margin-top: 3vw;
   font-size: 2.4vw;
   font-weight: 500;
 }
 .profile .profile-text .profile-scholl {
+  font-family: "hiragino-kaku-gothic-pron", sans-serif;
+  font-weight: 500;
   font-size: 1.6vw;
   font-weight: 500;
   margin: 1vw 0vw;
 }
 .profile .profile-text .profile-maintext {
+  font-family: "hiragino-kaku-gothic-pron", sans-serif;
+  font-weight: 500;
   font-size: 1.2vw;
 }
 .profile .profile-text .sns-icon {
@@ -148,6 +154,8 @@ body {
 }
 
 .sub {
+  font-family: "hiragino-kaku-gothic-pron", sans-serif;
+  font-weight: 500;
   margin-top: 3.5vw;
   margin-left: 2vw;
   font-weight: 500;
@@ -176,6 +184,8 @@ body {
   font-weight: 700;
 }
 .container .subtitle .text, .container .subtitle1 .text {
+  font-family: "hiragino-kaku-gothic-pron", sans-serif;
+  font-weight: 500;
   margin-top: 2vw;
   margin-bottom: 2vw;
   font-weight: 700;
@@ -206,15 +216,20 @@ body {
   list-style-type: none;
 }
 .Works .works-content ul .works1 {
+  margin-bottom: 3vw;
   display: flex;
   justify-content: center;
 }
 .Works .works-content ul .works1 img {
-  width: 50%;
+  width: 90%;
 }
 .Works .works-content ul .works1 a {
+  font-family: "hiragino-kaku-gothic-pron", sans-serif;
   text-align: center;
-  font-size: 2vw;
   text-decoration: none;
   color: black;
+  font-size: 1.5vw;
+}
+.Works .works-content ul .works1 a p {
+  margin-top: 1vw;
 }/*# sourceMappingURL=style.css.map */

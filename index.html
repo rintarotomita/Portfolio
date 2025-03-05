@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/qww1eeu.css">
     <script src="assets/js/index.js"></script>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'eij0qpu',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
 </head>
 
 <body>
@@ -60,13 +70,17 @@
                     <div class="subtitle">
                         <div class="title">Web Design</div>
                         <div class="text">デザインにおける信念
-                            <div class="maintext">Webデザインで大切にしているのは、「自分が感じたことや思ったことをデザインに<br>落とし込む」ことです。デザインは私の経験や感情を表現する手段であり、視覚的に<br>伝えるためにレイアウトや色、フォントを選びます。ただ美しいだけでなく、ユーザ<br>ーが使いやすいことも重要です。そのため、UI/UXデザインを意識し、直感的で快適<br>な体験を提供できるよう心がけています。</div>
+                            <div class="maintext">
+                                Webデザインで大切にしているのは、「自分が感じたことや思ったことをデザインに<br>落とし込む」ことです。デザインは私の経験や感情を表現する手段であり、視覚的に<br>伝えるためにレイアウトや色、フォントを選びます。ただ美しいだけでなく、ユーザ<br>ーが使いやすいことも重要です。そのため、UI/UXデザインを意識し、直感的で快適<br>な体験を提供できるよう心がけています。
+                            </div>
                         </div>
                     </div>
                     <div class="subtitle1">
                         <div class="title">Web Coder</div>
                         <div class="text">動きのある革新的なサイト
-                            <div class="maintext">私はWebサイトを制作する上で、美しさだけでなく、スムーズで直感的な動きを<br>大切にしています。適切なアニメーションやインタラクションによって、ユーザ<br>ーが没入できる体験を提供します。そのために、パフォーマンスを考慮した軽快<br>な動作を意識し、UXを向上させるデザインを設計します。GSAPやScrollTrigger、<br>WebGLなどの技術を活用し、革新的な表現を追求しています。また、保守性や再<br>利用性にも配慮し、管理しやすいコード設計を心がけています。私は、単なる装飾<br>ではなく、心地よい動きのあるサイトを目指しています。</div>
+                            <div class="maintext">
+                                私はWebサイトを制作する上で、美しさだけでなく、スムーズで直感的な動きを<br>大切にしています。適切なアニメーションやインタラクションによって、ユーザ<br>ーが没入できる体験を提供します。そのために、パフォーマンスを考慮した軽快<br>な動作を意識し、UXを向上させるデザインを設計します。GSAPやScrollTrigger、<br>WebGLなどの技術を活用し、革新的な表現を追求しています。また、保守性や再<br>利用性にも配慮し、管理しやすいコード設計を心がけています。私は、単なる装飾<br>ではなく、心地よい動きのあるサイトを目指しています。
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -80,12 +94,33 @@
                         <a href="/"><img src="./assets/img/Works-imgs/新舞子.png?ver.20250222" alt="">
                             <p>新舞子マリンパーク</p>
                         </a>
-                        <a href="/"><img src="" alt=""></a>
+                        <a href="/"><img src="./assets/img/Works-imgs/卒制.png?ver2025.0302" alt="">
+                            <p>架空団体Roots Projectサイト</p>
+                        </a>
                     </li>
-                        <a href=""><img src="" alt=""></a>
-                        <a href=""><img src="" alt=""></a>
+                    <li class="works1">
+                        <a href="/"><img src="./assets/img/Works-imgs/ヴィンテージ.png?ver2025.0302" alt="">
+                            <p>架空ヴィンテージサイト</p>
+                        </a>
+                        <a href="/"><img src="./assets/img/Works-imgs/工芸品.png?ver2025.0303" alt="">
+                            <p>工芸品Webサイト</p>
+                        </a>
+                    </li>
+                    <li class="works1">
+                        <a href=""><img src="./assets/img/Works-imgs/キャラバン.png?ver.2025.0304" alt="">
+                            <p>株式会社キャラバンリニューアルサイト(仮)</p>
+                        </a>
+                        <a href=""><img src="./assets/img/Works-imgs/運送会社.png?ver2025.0304" alt="">
+                            <p>運送会社Webサイト</p>
+                        </a>
+                    </li>
                     </li>
                 </ul>
+            </div>
+        </section>
+        <section class="Contact">
+            <div class="Contact-container">
+                
             </div>
         </section>
     </div>
